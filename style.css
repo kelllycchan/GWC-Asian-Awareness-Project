@@ -1,0 +1,210 @@
+/* STYLE SECTIONING TAGS */
+
+/* SECTIONS */
+.featured{
+  background-color: rgb(123, 30, 122);
+  margin: 3em;
+  
+}
+
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ text-align: center;
+ background-color: rgb(236, 64, 103); 
+ background-image: linear-gradient(to bottom right, rgb(249, 86, 79), rgb(179, 36, 120));
+}
+
+/* STYLE TEXT */
+#scriptReturned{
+  color: rgb(12, 10, 62);
+  padding: 1em 3em;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+#fact{
+  font-size: 24px;
+  padding: 2em;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+  color: rgb(243, 198, 119);
+}
+.aboutBody{
+  margin:1em 20%;
+  margin-bottom:3em;
+}
+.itemText{
+  color: rgb(243, 198, 119);
+}
+.articleHeader{
+  padding: 1em;
+  background-color: rgb(198,45,114);
+  border: 5px solid rgb(123, 30, 122);
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+#homeFact{
+  font-size: 24px;
+  padding: 2em;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+  color: rgb(243, 198, 119);
+}
+.facts{
+  padding: 1em;
+  background-color: rgb(160,26,125);
+  margin-right: 25%;
+  margin-left: 25%;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+    border: 5px solid rgb(123, 30, 122);
+}
+.description{
+  margin-top: 1em;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding: 1em 3em;
+  font-size: 26px;
+  color: rgb(243, 198, 119);
+  border: 5px solid rgb(123, 30, 122);
+  background-color: rgb(160,26,125);
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+h1 {
+  font-size: 75px;
+  color: rgb(12, 10, 62);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+h2 {
+  font-size: 45px;
+  color: rgb(12, 10, 62);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+h3 {
+  font-size: 22px;
+  color: rgb(12, 10, 62);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+h4{
+  color: rgb(12, 10, 62);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+/* home under pics */
+.itemText{
+  padding: 1em;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+/* STYLE IMAGES */
+img{
+  max-width: 75%;
+  max-height: 75%;
+}
+#homepic{
+  margin-right:2em;
+  margin-left: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-width: 60%;
+  max-height: 60%;
+  border: solid rgb(123, 30, 122);
+  border-width: 30px 45px;
+}
+.container{
+ display: flex;
+ flex-direction:row;
+ flex-wrap: nowrap;
+}
+.item{
+ flex-basis: 100%;
+ text-align: center;
+ padding: 1em;
+}
+
+@media screen and (max-width: 850px){
+  .flexContainer{
+    flex-wrap: wrap;
+  }
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: rgb(123, 30, 122);
+  overflow: hidden;
+  padding: 1em;
+}
+
+li{
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(243, 198, 119);
+  font-size: 1.3em;
+  padding: 1em;
+    font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+
+li a:hover{
+  padding: 10px;
+  background-color: #EE4F64;
+}
+
+/* STYLE BUTTONS */
+#homeFactButton{
+  border: 5px solid rgb(123, 30, 122);
+  background-color: rgb(236, 64, 103);
+  color: rgb(243, 198, 119);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+#factButton{
+  border: 5px solid rgb(123, 30, 122);
+  background-color: rgb(236, 64, 103);
+  color: rgb(123, 30, 122);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+}
+#generateButton{
+  border: 5px solid rgb(123, 30, 122);
+  background-color: rgb(236, 64, 103);
+  color: rgb(123, 30, 122);
+  padding: 10px 16px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter; 
+}
+
+/* script generator */
+.enter{
+  margin-top: 1em;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding: 1em 3em;
+  font-size: 26px;
+  color: rgb(243, 198, 119);
+  border: 5px solid rgb(123, 30, 122);
+  background-color: rgb(160,26,125);
+  font-family: "Lucida Sans Typewriter", 	Lucida Sans Typewriter;
+  text-align: left;
+}
+
